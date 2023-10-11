@@ -1,4 +1,8 @@
 <script lang="ts">
+	import Async from '../components/Async.svelte';
+	import Counter from '../components/Counter.svelte';
+	import List from '../components/List.svelte';
+
 	let name = 'svelte app';
 	let src = './favicon.png';
 </script>
@@ -11,6 +15,9 @@
 		sit odio doloribus iusto dignissimos at repellat nostrum accusamus perspiciatis et aliquam.
 		Officiis harum alias odio ex?
 	</p>
+	<Counter />
+	<List />
+	<Async />
 </div>
 
 <style>
